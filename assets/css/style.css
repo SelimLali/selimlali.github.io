@@ -117,7 +117,16 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   line-height: 1.7;
   color: var(--text);
 }
-.about .role { font-weight: 500; letter-spacing: 0.02em; }
+.about .role { font-weight: 500; letter-spacing: 0.02em; margin-bottom: 8px; }
+.about .where {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.about .where svg { flex: none; width: 14px; height: 14px; color: var(--accent); }
 
 .links { display: flex; flex-wrap: wrap; gap: 8px; }
 .links a {
@@ -257,6 +266,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   .intro { flex-direction: column; align-items: center; gap: 22px; padding: 28px 0 36px; margin-bottom: 40px; text-align: center; }
   .about h1 { font-size: 34px; }
   .about p { margin-left: auto; margin-right: auto; }
+  .about .where { justify-content: center; }
   .links { justify-content: center; }
   .block { margin-bottom: 44px; }
   .row { grid-template-columns: 62px minmax(0, 1fr); }

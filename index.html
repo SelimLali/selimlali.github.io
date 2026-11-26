@@ -124,7 +124,7 @@
         <div class="body">
           <div class="tags"><span class="tag">LLM reasoning</span><span class="tag">Test-time compute</span><span class="tag">MCMC sampling</span></div>
           <h3>LLM Reasoning with Sampling</h3>
-          <p class="summary">Reproduction on MATH500 of training-free power sampling (Karan and Du, 2025), which improves a base model&rsquo;s reasoning at inference time by changing how responses are sampled.</p>
+          <p class="summary">Reproduction of training-free power sampling (Karan and Du, 2025): a blockwise Metropolis&ndash;Hastings sampler that steers a base LLM toward higher-likelihood reasoning paths at inference time, with no fine-tuning. On 100 MATH500 problems with Qwen2.5-Math-1.5B-Instruct, accuracy rose from 62.0% with standard sampling to 70.0%, ahead of low-temperature decoding (67.3%).</p>
           <div class="buttons"><a href="https://github.com/SelimLali/Large-Language-Models-reasoning-with-sampling">GitHub</a><a href="https://github.com/SelimLali/Large-Language-Models-reasoning-with-sampling/blob/main/Report%20Generative_models%20-%20LLM%20reasoning%20with%20sampling.pdf">Report</a><a href="https://github.com/SelimLali/Large-Language-Models-reasoning-with-sampling/blob/main/Slides_Presentation.pdf">Slides</a></div>
         </div>
       </article>

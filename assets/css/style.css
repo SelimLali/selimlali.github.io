@@ -244,7 +244,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 .paper.plain .by { margin-bottom: 0; }
 
 /* ---------- projects ---------- */
-.cards { display: flex; flex-direction: column; gap: 16px; }
+.cards { display: flex; flex-direction: column; gap: 24px; }
 .card {
   display: flex;
   overflow: hidden;

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 414" width="600" height="414" role="img" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<title>Three training orders</title>
+<desc>The same training pairs in three orders: easy to hard, hard to easy, and random. Each block is a training pair, shaded from light (easy) to dark (hard). Each order is trained for the same number of steps.</desc>
+<defs><marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8 L10 5 L0 9.2 z" fill="#64748b"/></marker></defs>
+<rect width="600" height="414" fill="#ffffff"/>
+<defs><linearGradient id="diff" x1="0" x2="1"><stop offset="0" stop-color="#f3dede"/><stop offset="1" stop-color="#8c1515"/></linearGradient></defs>
+<text x="36" y="52" font-size="16" fill="#555555">difficulty</text>
+<text x="196" y="52" font-size="15" fill="#555555">easy</text>
+<rect x="238" y="38" width="180" height="18" rx="4" fill="url(#diff)"/>
+<text x="428" y="52" font-size="15" fill="#555555">hard</text>
+<text x="36" y="134" font-size="19" font-weight="700" fill="#1a1a1a">easy → hard</text>
+<rect x="196.0" y="104" width="18.7" height="46" rx="4" fill="#f3dede"/>
+<rect x="219.7" y="104" width="18.7" height="46" rx="4" fill="#ecd1d1"/>
+<rect x="243.4" y="104" width="18.7" height="46" rx="4" fill="#e5c3c3"/>
+<rect x="267.1" y="104" width="18.7" height="46" rx="4" fill="#deb6b6"/>
+<rect x="290.8" y="104" width="18.7" height="46" rx="4" fill="#d8a8a8"/>
+<rect x="314.4" y="104" width="18.7" height="46" rx="4" fill="#d19b9b"/>
+<rect x="338.1" y="104" width="18.7" height="46" rx="4" fill="#ca8e8e"/>
+<rect x="361.8" y="104" width="18.7" height="46" rx="4" fill="#c38080"/>
+<rect x="385.5" y="104" width="18.7" height="46" rx="4" fill="#bc7373"/>
+<rect x="409.2" y="104" width="18.7" height="46" rx="4" fill="#b56565"/>
+<rect x="432.9" y="104" width="18.7" height="46" rx="4" fill="#ae5858"/>
+<rect x="456.6" y="104" width="18.7" height="46" rx="4" fill="#a74b4b"/>
+<rect x="480.2" y="104" width="18.7" height="46" rx="4" fill="#a13d3d"/>
+<rect x="503.9" y="104" width="18.7" height="46" rx="4" fill="#9a3030"/>
+<rect x="527.6" y="104" width="18.7" height="46" rx="4" fill="#932222"/>
+<rect x="551.3" y="104" width="18.7" height="46" rx="4" fill="#8c1515"/>
+<text x="36" y="226" font-size="19" font-weight="700" fill="#1a1a1a">hard → easy</text>
+<rect x="196.0" y="196" width="18.7" height="46" rx="4" fill="#8c1515"/>
+<rect x="219.7" y="196" width="18.7" height="46" rx="4" fill="#932222"/>
+<rect x="243.4" y="196" width="18.7" height="46" rx="4" fill="#9a3030"/>
+<rect x="267.1" y="196" width="18.7" height="46" rx="4" fill="#a13d3d"/>
+<rect x="290.8" y="196" width="18.7" height="46" rx="4" fill="#a74b4b"/>
+<rect x="314.4" y="196" width="18.7" height="46" rx="4" fill="#ae5858"/>
+<rect x="338.1" y="196" width="18.7" height="46" rx="4" fill="#b56565"/>
+<rect x="361.8" y="196" width="18.7" height="46" rx="4" fill="#bc7373"/>
+<rect x="385.5" y="196" width="18.7" height="46" rx="4" fill="#c38080"/>
+<rect x="409.2" y="196" width="18.7" height="46" rx="4" fill="#ca8e8e"/>
+<rect x="432.9" y="196" width="18.7" height="46" rx="4" fill="#d19b9b"/>
+<rect x="456.6" y="196" width="18.7" height="46" rx="4" fill="#d8a8a8"/>
+<rect x="480.2" y="196" width="18.7" height="46" rx="4" fill="#deb6b6"/>
+<rect x="503.9" y="196" width="18.7" height="46" rx="4" fill="#e5c3c3"/>
+<rect x="527.6" y="196" width="18.7" height="46" rx="4" fill="#ecd1d1"/>
+<rect x="551.3" y="196" width="18.7" height="46" rx="4" fill="#f3dede"/>
+<text x="36" y="318" font-size="19" font-weight="700" fill="#1a1a1a">random</text>
+<rect x="196.0" y="288" width="18.7" height="46" rx="4" fill="#d8a8a8"/>
+<rect x="219.7" y="288" width="18.7" height="46" rx="4" fill="#a74b4b"/>
+<rect x="243.4" y="288" width="18.7" height="46" rx="4" fill="#ae5858"/>
+<rect x="267.1" y="288" width="18.7" height="46" rx="4" fill="#9a3030"/>
+<rect x="290.8" y="288" width="18.7" height="46" rx="4" fill="#a13d3d"/>
+<rect x="314.4" y="288" width="18.7" height="46" rx="4" fill="#deb6b6"/>
+<rect x="338.1" y="288" width="18.7" height="46" rx="4" fill="#ca8e8e"/>
+<rect x="361.8" y="288" width="18.7" height="46" rx="4" fill="#f3dede"/>
+<rect x="385.5" y="288" width="18.7" height="46" rx="4" fill="#ecd1d1"/>
+<rect x="409.2" y="288" width="18.7" height="46" rx="4" fill="#8c1515"/>
+<rect x="432.9" y="288" width="18.7" height="46" rx="4" fill="#932222"/>
+<rect x="456.6" y="288" width="18.7" height="46" rx="4" fill="#d19b9b"/>
+<rect x="480.2" y="288" width="18.7" height="46" rx="4" fill="#e5c3c3"/>
+<rect x="503.9" y="288" width="18.7" height="46" rx="4" fill="#bc7373"/>
+<rect x="527.6" y="288" width="18.7" height="46" rx="4" fill="#b56565"/>
+<rect x="551.3" y="288" width="18.7" height="46" rx="4" fill="#c38080"/>
+<line x1="196" y1="368" x2="568" y2="368" stroke="#64748b" stroke-width="2" marker-end="url(#head)"/>
+<text x="383" y="398" text-anchor="middle" font-size="16" fill="#555555">training steps (same budget for each order)</text>
+</svg>

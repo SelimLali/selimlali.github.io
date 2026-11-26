@@ -256,6 +256,9 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 .card:hover { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07); transform: translateY(-1px); }
 .card .picture { flex: none; width: 140px; background: var(--chart); }
 .card .picture img { width: 100%; height: 100%; padding: 8px; object-fit: contain; }
+.card .picture.duo { display: flex; flex-direction: column; justify-content: center; gap: 2px; }   /* two figures, each opens at full size */
+.card .picture.duo a { display: block; cursor: zoom-in; }
+.card .picture.duo img { height: auto; padding: 6px 8px; }
 .card .body { flex: 1; min-width: 0; padding: 18px 22px; }
 .card h3 { font-family: var(--serif); font-size: 16.8px; font-weight: 600; line-height: 1.3; margin-bottom: 4px; }
 .card .affil { margin-bottom: 6px; font-size: 12px; line-height: 1.4; color: var(--muted); }
@@ -282,6 +285,8 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   .paper.plain .text { padding-left: 0; }
   .card { flex-direction: column; }
   .card .picture { width: 100%; height: 190px; }
+  .card .picture.duo { flex-direction: row; align-items: center; height: auto; }
+  .card .picture.duo a { width: 50%; }
 }
 
 @media (prefers-reduced-motion: reduce) {

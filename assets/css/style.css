@@ -194,10 +194,6 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 .row .dates { flex: none; font-size: 14px; font-weight: 500; color: var(--text); }
 .row .place { margin-bottom: 2px; font-size: 12px; line-height: 1.4; color: var(--muted); }
 .row .what { font-size: 13px; font-weight: 500; line-height: 1.55; color: var(--text); }
-/* a row whose place sits on the right, under the dates */
-.row .split { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 20px; row-gap: 3px; align-items: baseline; }
-.row .split .dates, .row .split .loc { text-align: right; }
-.row .loc { font-size: 12px; line-height: 1.4; color: var(--muted); }
 
 /* ---------- shared: tags and small buttons ---------- */
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
@@ -281,10 +277,6 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   .row .logo img { max-width: 52px; max-height: 48px; }
   .row .logo img.wide { max-width: 92px; }
   .row .top { flex-direction: column; gap: 0; }
-  .row .split { grid-template-columns: minmax(0, 1fr); row-gap: 0; }
-  .row .split .dates, .row .split .loc { text-align: left; }
-  .row .split .loc { order: 1; margin-bottom: 2px; }
-  .row .split .what { order: 2; }
   .paper { flex-direction: column; gap: 14px; }
   .paper .figure { width: 100%; }
   .paper.plain .text { padding-left: 0; }

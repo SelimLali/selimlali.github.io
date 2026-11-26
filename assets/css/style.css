@@ -164,7 +164,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 .rows { display: flex; flex-direction: column; }
 .row {
   display: grid;
-  grid-template-columns: 78px minmax(0, 1fr);
+  grid-template-columns: 128px minmax(0, 1fr);
   gap: 14px;
   align-items: center;
   padding: 12px 0;
@@ -176,11 +176,12 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 78px;
+  width: 128px;
   height: 58px;
   overflow: hidden;
 }
 .row .logo img { max-width: 62px; max-height: 54px; object-fit: contain; }
+.row .logo img.wide { max-width: 122px; }   /* a horizontal logo may use the whole column */
 .row .logo img.on-white { mix-blend-mode: multiply; }   /* logo files with a white background */
 .row .top {
   display: flex;
@@ -269,9 +270,10 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   .about .where { justify-content: center; }
   .links { justify-content: center; }
   .block { margin-bottom: 44px; }
-  .row { grid-template-columns: 62px minmax(0, 1fr); }
-  .row .logo { width: 62px; }
+  .row { grid-template-columns: 96px minmax(0, 1fr); }
+  .row .logo { width: 96px; }
   .row .logo img { max-width: 52px; max-height: 48px; }
+  .row .logo img.wide { max-width: 92px; }
   .row .top { flex-direction: column; gap: 0; }
   .paper { flex-direction: column; gap: 14px; }
   .paper .figure { width: 100%; }

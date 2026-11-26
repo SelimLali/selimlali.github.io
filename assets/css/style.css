@@ -223,6 +223,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   transition: background .15s, color .15s;
 }
 .buttons a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+.buttons a:not([href]) { cursor: default; }   /* a button with no link yet */
 
 /* ---------- publications ---------- */
 .papers { display: flex; flex-direction: column; gap: 28px; }

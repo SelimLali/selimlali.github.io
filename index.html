@@ -110,13 +110,12 @@
     <hr class="rule">
     <div class="cards">
       <article class="card">
-        <div class="picture duo"><a href="assets/img/project-molecule-task.svg" title="Open the figure at full size"><img src="assets/img/project-molecule-task.svg" alt="Task and problem setting: goal, challenge, metrics and input data of molecular graph captioning"></a><a href="assets/img/project-molecule-pipeline.png" title="Open the figure at full size"><img src="assets/img/project-molecule-pipeline.png" alt="Baseline retrieval pipeline: a GCN graph encoder and a frozen BERT text encoder aligned with an MSE loss"></a></div>
+        <div class="picture duo"><a href="assets/img/project-fundus-concept.svg" title="Open the figure at full size"><img src="assets/img/project-fundus-concept.svg" alt="A stylized fundus photograph goes through a vision-language model fine-tuned with LoRA, which writes a clinical description"></a><a href="assets/img/project-fundus-framework.svg" title="Open the figure at full size"><img src="assets/img/project-fundus-framework.svg" alt="Framework: dataset of 1.64 million retinal images with 1.38 million captions, LoRA fine-tuning of Qwen3-VL, MedGemma and LLaVA-Med, evaluation on 211,151 test images"></a></div>
         <div class="body">
-          <div class="tags"><span class="tag">Multimodal</span><span class="tag">Graph learning</span><span class="tag">Graph&ndash;text alignment</span></div>
-          <h3>Molecular Graph Captioning &mdash; From Retrieval to Controlled Generation</h3>
-          <p class="affil">DaSciM Team, LIX, &Eacute;cole Polytechnique</p>
-          <p class="summary">Graph-to-text models that describe a molecule in natural language from its graph: GNN&ndash;text retrieval, then generation with a GNN encoder and BART/GPT-2 decoders. Kaggle data challenge at &Eacute;cole Polytechnique, test score 0.619 (top 10%).</p>
-          <div class="buttons"><a href="https://github.com/SelimLali/Molecular-Graph-Captioning-Data-Challenge">GitHub</a><a href="https://github.com/SelimLali/Molecular-Graph-Captioning-Data-Challenge/blob/main/Report_Molecular_Graph_Captioning.pdf">Report</a><a href="https://github.com/SelimLali/Molecular-Graph-Captioning-Data-Challenge/blob/main/ALTEGRAD%20presentation.pptx">Slides</a></div>
+          <div class="tags"><span class="tag">Medical imaging</span><span class="tag">Multimodal</span><span class="tag">Vision-language</span></div>
+          <h3>Fundus Image Captioning with Vision-Language Models</h3>
+          <p class="affil">VLMs for Ophthalmology &mdash; Harvard AI &amp; Robotics Lab</p>
+          <p class="summary">Open-weight vision-language models (Qwen3-VL, MedGemma, LLaVA-Med) fine-tuned with LoRA to write, from a fundus photograph, the clinical description an ophthalmologist would record. Dataset of 1.38 million captions for 1.64 million retinal images, rewritten from clinical notes by LLM; evaluation on 211,151 test images with captioning metrics, clinical-concept F1 and an LLM judge.</p>
         </div>
       </article>
       <article class="card">
@@ -129,6 +128,16 @@
         </div>
       </article>
       <article class="card">
+        <div class="picture duo"><a href="assets/img/project-molecule-task.svg" title="Open the figure at full size"><img src="assets/img/project-molecule-task.svg" alt="Task and problem setting: goal, challenge, metrics and input data of molecular graph captioning"></a><a href="assets/img/project-molecule-pipeline.png" title="Open the figure at full size"><img src="assets/img/project-molecule-pipeline.png" alt="Baseline retrieval pipeline: a GCN graph encoder and a frozen BERT text encoder aligned with an MSE loss"></a></div>
+        <div class="body">
+          <div class="tags"><span class="tag">Multimodal</span><span class="tag">Graph learning</span><span class="tag">Graph&ndash;text alignment</span></div>
+          <h3>Molecular Graph Captioning &mdash; From Retrieval to Controlled Generation</h3>
+          <p class="affil">DaSciM Team, LIX, &Eacute;cole Polytechnique</p>
+          <p class="summary">Graph-to-text models that describe a molecule in natural language from its graph: GNN&ndash;text retrieval, then generation with a GNN encoder and BART/GPT-2 decoders. Kaggle data challenge at &Eacute;cole Polytechnique, test score 0.619 (top 10%).</p>
+          <div class="buttons"><a href="https://github.com/SelimLali/Molecular-Graph-Captioning-Data-Challenge">GitHub</a><a href="https://github.com/SelimLali/Molecular-Graph-Captioning-Data-Challenge/blob/main/Report_Molecular_Graph_Captioning.pdf">Report</a><a href="https://github.com/SelimLali/Molecular-Graph-Captioning-Data-Challenge/blob/main/ALTEGRAD%20presentation.pptx">Slides</a></div>
+        </div>
+      </article>
+      <article class="card">
         <div class="picture duo"><a href="assets/img/project-curriculum-pipeline.svg" title="Open the figure at full size"><img src="assets/img/project-curriculum-pipeline.svg" alt="Pipeline: sample EN-JA pairs, fast difficulty score and LLM-judge score, curricula, zero-shot screening, LoRA fine-tuning and test-set evaluation"></a><a href="assets/img/project-curriculum-orders.svg" title="Open the figure at full size"><img src="assets/img/project-curriculum-orders.svg" alt="The three training orders: easy to hard, hard to easy and random, with each training pair shaded by its difficulty"></a></div>
         <div class="body">
           <div class="tags"><span class="tag">Curriculum learning</span><span class="tag">Machine translation</span></div>
@@ -136,15 +145,6 @@
           <p class="affil">Capstone project with Dragon LLM, Institut Polytechnique de Paris</p>
           <p class="summary">English-to-Japanese translation: difficulty scored with fast text features and an LLM judge, easy-to-hard, hard-to-easy and random curricula, and LoRA fine-tuning of NLLB-200 and Qwen3 base models under the same step budget.</p>
           <div class="buttons"><a href="https://github.com/SelimLali/Curriculum-learning-capstone-project">GitHub</a><a href="https://github.com/SelimLali/Curriculum-learning-capstone-project/blob/main/docs/report.pdf">Report</a><a href="https://github.com/SelimLali/Curriculum-learning-capstone-project/blob/main/docs/slides.pdf">Slides</a></div>
-        </div>
-      </article>
-      <article class="card">
-        <div class="picture duo"><a href="assets/img/project-fundus-concept.svg" title="Open the figure at full size"><img src="assets/img/project-fundus-concept.svg" alt="A stylized fundus photograph goes through a vision-language model fine-tuned with LoRA, which writes a clinical description"></a><a href="assets/img/project-fundus-framework.svg" title="Open the figure at full size"><img src="assets/img/project-fundus-framework.svg" alt="Framework: dataset of 1.64 million retinal images with 1.38 million captions, LoRA fine-tuning of Qwen3-VL, MedGemma and LLaVA-Med, evaluation on 211,151 test images"></a></div>
-        <div class="body">
-          <div class="tags"><span class="tag">Medical imaging</span><span class="tag">Multimodal</span><span class="tag">Vision-language</span></div>
-          <h3>Fundus Image Captioning with Vision-Language Models</h3>
-          <p class="affil">VLMs for Ophthalmology &mdash; Harvard AI &amp; Robotics Lab</p>
-          <p class="summary">Open-weight vision-language models (Qwen3-VL, MedGemma, LLaVA-Med) fine-tuned with LoRA to write, from a fundus photograph, the clinical description an ophthalmologist would record. Dataset of 1.38 million captions for 1.64 million retinal images, rewritten from clinical notes by LLM; evaluation on 211,151 test images with captioning metrics, clinical-concept F1 and an LLM judge.</p>
         </div>
       </article>
     </div>
